@@ -32,4 +32,5 @@ EXPOSE 3000
 
 # Start the application
 
-CMD sleep 60 && pnpm run db:node --create -m --seed && pnpm start
+# CMD sleep 60 && pnpm run db:node --create -m --seed && pnpm start
+CMD pnpm start
