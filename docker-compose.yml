@@ -10,7 +10,6 @@ services:
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
 
   app:
-    depends_on: [ 'db' ]
     build:
       context: .
       dockerfile: Dockerfile
